@@ -258,7 +258,7 @@ def main():
                     logger(name, message)
                     # if the final message is from me and says 'gtfo [bot]' stop the bot and exit. Needs adjustment
                     # so it works for main user account and not hardcoded username.
-                    if name.lower() == my_master and message[:5 + len(botnick)] == f"bye {botnick}:
+                    if name.lower() == my_master and message[:5 + len(botnick)] == f'bye {botnick}':
                         sendmsg("Oh...ok. Will do as you command :'(")
                         print(f'{botnick} is leaving at ', end = "")
                         display_time()
