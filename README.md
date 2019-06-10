@@ -1,2 +1,2 @@
 # ircbot_sed
-Perform sed like functionality in the chat window
+Python3 implementation iof IRC Bot with sed like replace text functionality.
